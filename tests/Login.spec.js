@@ -29,3 +29,18 @@ test('Login to website', async ({page}) => {
  
 })
  
+
+//page.locator('[attribute=value]').fill('value')
+//page.fill('[attribute=value]','value')
+//page.locator('[attribute=value]').click()
+//page.click('[attribute=value]')
+//page.locator('[attribute=value]').check()
+//page.check('[attribute=value]')
+//page.locator('[attribute=value]').uncheck()
+//page.uncheck('[attribute=value]')
+//page.locator('[attribute=value]').selectOption('value')
+//page.selectOption('[attribute=value]','value')
+//page.locator('[attribute=value]').hover()
+//page.hover('[attribute=value]')
+//page.locator('[attribute=value]').scrollIntoViewIfNeeded()
+//page.scrollIntoViewIfNeeded('[attribute=value]')

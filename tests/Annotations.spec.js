@@ -21,9 +21,6 @@
 
 
 
-  test.step('Launch the website', async () => {
-            await page.goto('https://testautomationpractice.blogspot.com/')
-        })
 
 
 
@@ -32,13 +29,15 @@
         test.describe.only('Handling the different date pickers in the website', async () => {
  
 test('test1', async ({page})=> {
- 
-}
+    await test.step('Launch the website', async () => {
+        await page.goto('https://testautomationpractice.blogspot.com/')
+    });
+});
  
 test('test2', async({page}) => {
- 
-}
- 
-}
+});
+
+});
+        
 
 //to set timeout within a test case - test.setTimeout(60 * 1000)

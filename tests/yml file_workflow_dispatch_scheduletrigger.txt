@@ -1,0 +1,20 @@
+inside action tab in github, for manual run on any brach in repository add workflow_dispatch inside yml file.
+
+schedul command in yml file for trigger, -cron : '45 20 10 02 5,6'   ( 8 : 45 time, feb 10 , and saturday (6) , friday (5), thursday(4) if any then give *1
+ )
+ Every saturday and sundy on february
+
+ 1-5 - All working days
+
+ 1-31 , for date
+
+ -cron : '00 00 * * 5'    - Every day 12 o clock
+
+ minute hr date mnth dayof the week   - this is the order
+
+ ======================
+
+
+ run: npx playwright test --grep @smoke , give in yml file if only that needs to run
+
+ retention period for report can be extended 
